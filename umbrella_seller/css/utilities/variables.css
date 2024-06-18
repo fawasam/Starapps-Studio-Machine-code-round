@@ -1,0 +1,27 @@
+/* CSS Variables and Themes */
+:root {
+  --default-bgColor: #f0f0f0;
+  --blue-color: #1e90ff;
+  --pink-color: #ff69b4;
+  --yellow-color: #ffd700;
+  --blue-bgColor: #e7f3ff;
+  --pink-bgColor: #ffebf1;
+  --yellow-bgColor: #fff9e1;
+}
+
+/* Theme Background Colors */
+body {
+  background-color: var(--default-bgColor);
+}
+
+body.pink {
+  background-color: var(--pink-bgColor);
+}
+
+body.blue {
+  background-color: var(--blue-bgColor);
+}
+
+body.yellow {
+  background-color: var(--yellow-bgColor);
+}
